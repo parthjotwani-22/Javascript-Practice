@@ -1,16 +1,16 @@
-// console.log('This is my first piece of js code!! yay');
-// console.warn('This is a warning');
-// console.error("THis is an error");
-// console.log(false,123456,"hello",{name:"prime"});
+const  a = 8;
+const  b=5;
 
-let age =22;
-let Name="op";
-let option =true;
-console.log(typeof age);
-console.log(Name);
-let brand;
-console.log( typeof brand);
-let arr =[1,2,34,5];
-arr.push(6);
-console.log(arr);
-console.log(typeof option);
+console.log(a+b);
+console.log(a-b);
+console.log(a**b);
+console.log(a/b);
+console.log(a%b);
+
+let c=9;
+c+=1;
+console.log(c);
+c*=2;
+console.log(c);
+c**=2;
+console.log(c);
