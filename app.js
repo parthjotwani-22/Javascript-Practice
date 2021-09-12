@@ -1,20 +1,17 @@
-// const element=document.getElementById('selectme')
-// const hr =document.getElementsByClassName('heading')
-// const element=document.getElementsByTagName('h2')
-const element=document.querySelector('#selectme')
+// const rock = document.querySelector('#rock')
+// const paper =document.querySelector('#paper')
+// const scissor=document.querySelector('#scissor')
 
-//console.log(hr);
-// console.log(element);
-// element.innerHTML="HI I am parth"
-// element.style.color="red"
-// element.style.fontSize="40px"
+// function logname(name,age){
+//     console.log(name+" Your age is "+ age)
+// }
 
-// console.log(element.classList)
-// element.classList.add('five')
-// element.classList.remove('one')
-// console.log(element.classList)
+// logname('PARTH',18)
 
-// const body =document.querySelector('body')
-//  console.log(body.classList.toggle('dark'))
+function add(a=0,b=0) {
+    
+    return a+b;
+}
 
-console.log(element.classList.contains('one'))
+const result=add(10,20)
+console.log(result)
